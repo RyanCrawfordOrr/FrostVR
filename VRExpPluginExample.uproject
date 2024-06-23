@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "{E8CD94E5-4140-6944-5BE9-C8B9FE191C5A}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -65,22 +65,22 @@
 			]
 		},
 		{
-			"Name": "VRIKBody",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/c7314be54a7d49939c2dabc13fe1ffff"
+			"Name": "AdvancedSteamSessions",
+			"Enabled": false
 		},
 		{
-			"Name": "AnimationWarping",
-			"Enabled": true
+			"Name": "AdvancedSessions",
+			"Enabled": false
 		},
 		{
-			"Name": "ReadWritePlugin",
+			"Name": "BlueprintJson",
 			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/74b9f3d768c845ad8282fd4aa0cef343"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f837e4835fbc434a853fe1ead2410b84"
 		},
 		{
-			"Name": "ModelingToolsEditorMode",
-			"Enabled": true
+			"Name": "awsSDK",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/eee4bef24c9d429887ddcc107a5a9b4d"
 		}
 	],
 	"TargetPlatforms": [
