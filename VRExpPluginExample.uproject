@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{E8CD94E5-4140-6944-5BE9-C8B9FE191C5A}",
+	"EngineAssociation": "{D64D151A-491B-9D1D-2DB0-6BA446A340DA}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "VRExpPluginExample",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
@@ -84,6 +87,18 @@
 		},
 		{
 			"Name": "ModelingToolsEditorMode",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryScripting",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraFluids",
+			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMeshModelingTools",
 			"Enabled": true
 		}
 	],

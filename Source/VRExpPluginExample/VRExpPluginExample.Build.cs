@@ -1,5 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
+using System.IO;
 using UnrealBuildTool;
 
 public class VRExpPluginExample : ModuleRules
@@ -12,6 +13,12 @@ public class VRExpPluginExample : ModuleRules
         PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "VRExpansionPlugin" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
+
+		if(Target.Platform == UnrealTargetPlatform.Android)
+		{
+			var manifestfile = Path.Combine(ModuleDirectory, "AndroidSanitizePerms.xml");
+				AdditionalPropertiesForReceipt.Add("AndroidPlugin", manifestfile);
+		}
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });
