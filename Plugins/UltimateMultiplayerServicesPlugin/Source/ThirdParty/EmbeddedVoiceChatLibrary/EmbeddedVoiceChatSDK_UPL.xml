@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* Copyright (C) Siqi.Wu - All Rights Reserved
+ * Written by Siqi.Wu <lion547016@gmail.com>, Feb 2022
+ */
+-->
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- init section is always evaluated once per architecture -->
+  <init>
+  </init>
+
+  <!-- optional files or directories to copy to Intermediate/Android/APK -->
+  <resourceCopies>
+<!--    <log text="Copying libdatachannel.so"/>-->
+<!--    <copyFile src="$S(PluginDir)/Android/$S(Architecture)/libdatachannel.so"-->
+<!--              dst="$S(BuildDir)/libs/$S(Architecture)/libdatachannel.so" />-->
+<!--    <log text="Copying libEmbeddedVoiceChat.so"/>-->
+<!--    <copyFile src="$S(PluginDir)/Android/$S(Architecture)/libEmbeddedVoiceChat.so"-->
+<!--              dst="$S(BuildDir)/libs/$S(Architecture)/libEmbeddedVoiceChat.so" />-->
+  </resourceCopies>
+
+  <!-- optional libraries to load in GameActivity.java before libUE4.so -->
+  <soLoadLibrary>
+	<loadLibrary name="c" failmsg="Failed to load c library" />
+<!--	<loadLibrary name="c++_shared" failmsg="Failed to load c++_shared library" />-->
+<!--    <loadLibrary name="datachannel" failmsg="Failed to load libdatachannel library" />-->
+<!--    <loadLibrary name="EmbeddedVoiceChat" failmsg="Failed to load libEmbeddedVoiceChat library" />-->
+  </soLoadLibrary>
+
+  <androidManifestUpdates>
+<!--    <addPermission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="28" />-->
+<!--    <addPermission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"  />-->
+    <addPermission android:name="android.permission.RECORD_AUDIO"  />
+  </androidManifestUpdates>
+</root>
