@@ -100,18 +100,6 @@
 		{
 			"Name": "SkeletalMeshModelingTools",
 			"Enabled": true
-		},
-		{
-			"Name": "NetworkPrediction",
-			"Enabled": true
-		},
-		{
-			"Name": "NetworkPredictionExtras",
-			"Enabled": true
-		},
-		{
-			"Name": "NetworkPredictionInsights",
-			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
