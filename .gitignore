@@ -12,7 +12,9 @@ Platforms/*
 Build/*
 Content/StarterContent/*
 .vscode/*
-Content/PolygonMilitary/*
+Content/PolygonMilitary/EpicContent*
+Content/PolygonMilitary/FX*
+Content/PolygonMilitary/Meshes*
 Content/SFX_OF_WEAPON/*
 Content/AdvancedShooter_SFX_System/*
 Content/LowPolyRocks/*
