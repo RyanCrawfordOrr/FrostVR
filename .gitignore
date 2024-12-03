@@ -12,7 +12,13 @@ Platforms/*
 Build/*
 Content/StarterContent/*
 .vscode/*
-Content/PolygonMilitary/Meshes*
+Content/PolygonMilitary/Meshes/Buildings/*
+Content/PolygonMilitary/Meshes/Characters/*
+Content/PolygonMilitary/Meshes/Generic/*
+Content/PolygonMilitary/Meshes/Items/*
+Content/PolygonMilitary/Meshes/New_Characters/*
+Content/PolygonMilitary/Meshes/Props/*
+Content/PolygonMilitary/Meshes/Weapons/*
 Content/SFX_OF_WEAPON/*
 Content/AdvancedShooter_SFX_System/*
 Content/LowPolyRocks/*
