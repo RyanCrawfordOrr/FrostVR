@@ -13,6 +13,6 @@ Build/*
 Content/StarterContent/*
 .vscode/*
 
-Content/LowPolyRocks/*
+Content/LowPolyRocks/Maps/*
 Content/Frost/Maps/AAS_OilFields_BuiltData.uasset
 
