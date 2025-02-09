@@ -17,11 +17,14 @@ public class VRExpPluginExampleClientTarget : TargetRules
         //bUsePCHFiles = false;
         //bUseUnityBuild = false;
 
+        // Enable the console in Shipping builds
+        GlobalDefinitions.Add("ALLOW_CONSOLE_IN_SHIPPING=1");
+
         /*
          * This is our Steam App ID.
          * # Define in both server and client targets
          */
-         //ProjectDefinitions.Add("UE_PROJECT_STEAMSHIPPINGID=2818330");
+        //ProjectDefinitions.Add("UE_PROJECT_STEAMSHIPPINGID=2818330");
 
 
 
@@ -37,13 +40,13 @@ public class VRExpPluginExampleClientTarget : TargetRules
          * under Dedicated Game Server Information in Steamworks
          * # Define in the client target
          */
-         //ProjectDefinitions.Add("UE_PROJECT_STEAMGAMEDIR=\"Frost\"");
+        //ProjectDefinitions.Add("UE_PROJECT_STEAMGAMEDIR=\"Frost\"");
 
         /*
          * This is what shows up under the game filter in Steam server browsers.
          * # Define in both server and client targets
          */
-         //ProjectDefinitions.Add("UE_PROJECT_STEAMGAMEDESC=\"Frost\"");
+        //ProjectDefinitions.Add("UE_PROJECT_STEAMGAMEDESC=\"Frost\"");
     }
 
     //
